@@ -1,0 +1,59 @@
+{
+    "name": "problemHorizontalDataView",
+    "settings": {},
+    "xdsVersion": "2.2.3",
+    "xdsBuild": 1039,
+    "schemaVersion": 1,
+    "upgradeVersion": 210000000503,
+    "framework": "touch23",
+    "topInstanceFileMap": {
+        "b0859bea-81cb-4e15-9393-258f5070b60d": {
+            "paths": [
+                "metadata/store/store1",
+                "app/store/override/store1.js",
+                "app/store/store1.js"
+            ],
+            "className": "store1"
+        },
+        "0ea3b52c-00e2-4224-8ca6-a903568d8f21": {
+            "paths": [
+                "metadata/resource/Library"
+            ],
+            "className": "Library"
+        },
+        "a2f37229-804c-4782-a7dd-07c8bd035d78": {
+            "paths": [
+                "metadata/model/model1",
+                "app/model/override/model1.js",
+                "app/model/model1.js"
+            ],
+            "className": "model1"
+        },
+        "a320c2a0-7fa9-4375-b8c9-8262208deed8": {
+            "paths": [
+                "metadata/view/container1",
+                "app/view/override/container1.js",
+                "app/view/container1.js"
+            ],
+            "className": "container1"
+        }
+    },
+    "viewOrderMap": {
+        "view": [
+            "a320c2a0-7fa9-4375-b8c9-8262208deed8"
+        ],
+        "store": [
+            "b0859bea-81cb-4e15-9393-258f5070b60d"
+        ],
+        "controller": [],
+        "model": [
+            "a2f37229-804c-4782-a7dd-07c8bd035d78"
+        ],
+        "resource": [
+            "0ea3b52c-00e2-4224-8ca6-a903568d8f21"
+        ],
+        "app": [
+            "application"
+        ]
+    }
+}

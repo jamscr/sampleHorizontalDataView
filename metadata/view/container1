@@ -1,0 +1,81 @@
+{
+    "type": "Ext.Container",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "id": "container1",
+        "designer|userClassName": "container1",
+        "designer|initialView": true,
+        "layout": "fit"
+    },
+    "designerId": "a320c2a0-7fa9-4375-b8c9-8262208deed8",
+    "cn": [
+        {
+            "type": "Ext.Container",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "height": "30%",
+                "left": 0,
+                "top": "40%",
+                "width": "100%",
+                "layout": "fit"
+            },
+            "designerId": "a0bc2045-9f62-4a1b-a529-9fe16433cf9f",
+            "cn": [
+                {
+                    "type": "Ext.dataview.DataView",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "scrollable": "horizontal",
+                        "inline": [
+                            "{wrap: false}"
+                        ],
+                        "store": "store1"
+                    },
+                    "designerId": "9f6ee082-5bbf-4909-9a9d-912be8a5cb93",
+                    "cn": [
+                        {
+                            "type": "Ext.XTemplate",
+                            "reference": {
+                                "name": "itemTpl",
+                                "type": "object"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "implHandler": [
+                                    "<div> aValuebbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb {nombreProvincia}</div>"
+                                ],
+                                "designer|displayName": "itemTpl"
+                            },
+                            "designerId": "aef051b3-5f5f-4d77-b946-6e4d9061ea4e"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "Ext.TitleBar",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "docked": "top",
+                "title": "DataView test"
+            },
+            "designerId": "8191fd3f-c807-4d53-be93-a1e7b7f8f573"
+        }
+    ]
+}

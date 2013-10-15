@@ -1,0 +1,122 @@
+{
+    "type": "Ext.data.Model",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "model1"
+    },
+    "designerId": "a2f37229-804c-4782-a7dd-07c8bd035d78",
+    "cn": [
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "idDidiRapidos"
+            },
+            "designerId": "a871918b-6d61-4996-a1fc-879ca18c18db"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "nombreProvincia"
+            },
+            "designerId": "d0803929-9d64-4f96-9765-7d849cf1283b"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "imagen"
+            },
+            "designerId": "bb732eb8-1aa8-4a90-9549-65355b90cdc3"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "posicion"
+            },
+            "designerId": "9c9d6866-e29d-4c13-8364-035d297de9eb"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "parametro"
+            },
+            "designerId": "e1f923ff-38dc-443c-b889-1bfc789cca8a"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "llama"
+            },
+            "designerId": "32c75068-e6e2-45b7-8913-d1c6ad4dfc3a"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "idCategoria"
+            },
+            "designerId": "ca108509-62ce-40c2-ac0b-ef3a4a21886d"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "claseBoton"
+            },
+            "designerId": "7193e3a8-9c62-4182-bcaf-327dcdd8b033"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "idCliente"
+            },
+            "designerId": "94e048cd-8bf1-425d-9215-a68eb4f4aede"
+        }
+    ]
+}

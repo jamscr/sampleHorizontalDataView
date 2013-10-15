@@ -1,0 +1,44 @@
+{
+    "type": "jsonpstore",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "autoLoad": true,
+        "autoSync": true,
+        "model": "model1",
+        "storeId": "store1",
+        "designer|userClassName": "store1"
+    },
+    "designerId": "b0859bea-81cb-4e15-9393-258f5070b60d",
+    "cn": [
+        {
+            "type": "Ext.data.proxy.JsonP",
+            "reference": {
+                "name": "proxy",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "url": "http://tecmo.webfactional.com/didi/provincias"
+            },
+            "designerId": "8531f0b8-fb2a-4ef3-b23c-25fe8b9509ab",
+            "cn": [
+                {
+                    "type": "Ext.data.reader.Json",
+                    "reference": {
+                        "name": "reader",
+                        "type": "object"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "rootProperty": "ptm"
+                    },
+                    "designerId": "d350f765-80ef-443c-b005-67cf00cf69e8"
+                }
+            ]
+        }
+    ]
+}
